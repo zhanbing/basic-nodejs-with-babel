@@ -1,4 +1,6 @@
 import hello from './hello';
 
-hello('Node.js');
-
+(async () => {
+  const a = hello('foobar');
+  console.log('aaaaa: ', a);
+})();
